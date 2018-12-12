@@ -1,0 +1,14 @@
+form {background-color: #eaeaea;
+	  font-family: Arial, sans-serif;
+	  padding: 10px;
+	  margin-top: 20px;}
+main label {float: left;
+			width: 100px;
+			clear: both;
+			text-align: center;
+			padding-right: 10px;
+			margin-top: 10px;}
+header h1 {margin-bottom: 0;}
+input, textarea {margin-top: 10px;
+				 width: 100px;
+				 display: block;}

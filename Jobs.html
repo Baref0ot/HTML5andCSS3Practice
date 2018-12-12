@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <title> JavaJam Coffee House Jobs </title>
+	<meta charset="utf-8"/>
+	<meta name="description" content=" Java Jam Case Study 8 and 9"/>
+	<meta name="keywords" content=" Computer, Programming, Software, Engineering, HTML, CSS, Matthew, Wright, Java, Jam, JavaJam"/>
+	<meta name="author" content="Matthew Wright"/>
+	<meta name="wiewport" content="width=device-width, initial-scale=1.0"/>
+	<link href="JavaJamDesign.css" rel="stylesheet"/>
+	<!--[if lt IE 9]>
+	<script src="http://html5shim.googlecode.com/svn/trunk/html5.js">
+	</script>
+	<![endif]-->
+  </head>
+  <body>
+  <div id="wrapper">
+    <header>
+	  <h1> JavaJam Coffee House </h1>
+	</header>
+	<nav>
+	   <ul>
+			<li><a href="Home.html">Home</a></li>
+			<li><a href="Menu.html">Menu</a></li> 
+			<li><a href="Music.html">Music</a></li>
+			<li><a href="Jobs.html">Jobs</a></li>
+		</ul>
+	</nav>
+	<main>
+		<h3> Jobs at JavaJam </h3>
+		<p> Want to work at JavaJam? Fill out the form below to start your application. </p>
+		<form method="post" action="http://webdevbasics.net/scripts/javajam8.php">
+			<label for="Name"> Name: </label>
+			<input type="text" name="Name" id="Name" required="required"/>
+			<br/>
+			
+			<label for="E-mail"> E-mail: </label>
+			<input type="email" name="E-mail" id="E-mail" required="required"/>
+			<br/>
+			
+			<label for="Experience"> Experience: </label>
+			<textarea name="Experience" id="Experience" cols="50" rows="10" maxlength="2000" required="required">
+			</textarea>
+			<br/>
+			
+			<input type="submit" value="Apply Now"/>
+		</form>
+	</main>
+	<footer>
+		  Copyright &copy; 2016 JavaJam Coffe House <br>
+		  <a href="mailto:Matthew@Wright.com"> Matthew@Wright.com </a>
+	</footer>
+	</div>
+  </body>
+</html>

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+	<html lang="en">
+		<head>
+			<title> Spam Quest | Contact </title>
+			<meta charset="utf-8"/>
+			<meta name="description" content="The practice of creating forms with HTML5"/>
+			<meta name="keywords" content="How To, Computer, Programming, forms, practice"/>
+			<meta name="author" content="Matthew Lee Wright"/>
+			<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+			<link href="SpamQuest_Design.css" rel="stylesheet"/>
+			<!--[if lt IE 9]>
+			<script src="http://html5shim.googlecode.com/svn/trunk/html5.js">
+			</script>
+			<![endif]-->
+		</head>
+		<body>	
+			<header>
+				<h1> Contact Us! </h1>
+			</header>
+			<nav>
+				<!-- Nothing will be displayed in the navigation -->
+			</nav>
+			<main>
+				<form method="post" action="http://webdevbasics.net/scripts/demo.php">
+				    <fieldset>
+					<legend> Tell us who you are! </legend>
+				    <label for="firstName">First Name: </label> <input type="text" name="firstName" id="firstName" tabindex="1" required="required"/> <br/>
+					<br/>
+					<label for="lastName"> Last Name: </label> 
+					<input type="text" name="lastName" id="lasttName" tabindex="2" required="required"/> <br/>
+					<br/>
+					<label for="email"> E-mail: </label> 
+					<input type="email" name="email" id="email" tabindex="3"required="required"/> <br/>
+					<br/>
+					<label for="phone"> Phone: </label>
+					<input type="tel" name="phone" id="phone" tabindex="4"/>
+				    </fieldset> 
+					<br/>
+					<label for="comments"> Comments: </label> 
+					<textarea name="comments" id="comments" cols="70" rows="7" tabindex="5" required="required" maxlength="1500"> </textarea> <br/>
+					<br/>
+					<input type="submit" name="submit" value="Send" tabindex="6"/>
+				</form>
+			</main>
+			<footer>
+			</footer>
+		</body>
+	</html>

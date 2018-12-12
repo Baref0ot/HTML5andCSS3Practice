@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+	<html lang="en">
+		<head>
+			<title> Form Example </title>
+			<meta charset="utf-8"/>
+			<meta name="description" content="The practice of creating forms with HTML5"/>
+			<meta name="keywords" content="How To, Computer, Programming, forms, practice"/>
+			<meta name="author" content="Matthew Lee Wright"/>
+			<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+			<link href="#" rel="stylesheet"/>
+		</head>
+		<body>	
+			<header>
+				<h1> Join Our Newsletter </h1>
+			</header>
+			<nav>
+				<!-- Nothing will be displayed in the navigation -->
+			</nav>
+			<main>
+				<br/>
+				<form method="get">
+					E-Mail: <input type="text" name="email" id="email" required="required"/> <br/>
+					<br/>
+					Password: <input type="password" name="password" id="password" required="required"/> <br/>
+					<!-- Hidden Element -->
+					<input type="hidden" name="sendto" value="Matthews_Website_Customer_Database"/>
+					<br/>
+					<br/>
+					<input type="submit" value="Sign Me Up!"/> &nbsp; 
+					<input type="reset"/>
+					<br/>
+					<h2> Take a quick survey! </h2>
+					<!-- New Concept NOTE: YOU CAN ALSO USE THIS TO SET UP YOUR NAVIGATION Example:
+					(<option value="home.html"!!!> Home </option> However, you need to use JavaScript for it to work becuase of this it is not recommened for your main navigation but maybe a secondary navigation -->
+					 <select size="1" name="favBrowser" id="favBrowser">
+						<option> Select Your Favorite Browser </option>
+						<option value="IE"> Internet Explorer </option>
+						<option value="Chrome"> Google Chrome </option>
+						<option value="Bing"> Bing! </option>
+						<option value="Yahoo"> Yahoo! </option>
+					 </select> <br/>
+					 <br/>
+					<!-- end of New Concept -->
+					Spam?<br/>
+					<input type="radio" name="spamQuest" id="spamQuest" value="Hate_it!"/> Hate It!<br/>
+					<input type="radio" name="spamQuest" id="spamQuest" value="Love_it!"/> Love It!<br/>
+					<br/>
+					<input type="submit" value="Submit Answers"/>
+				</form>
+			</main>
+			<footer>
+			</footer>
+		</body>
+	</html>

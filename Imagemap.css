@@ -1,0 +1,25 @@
+       body {background-color: powderblue;
+		     color: blue}
+			 
+         h1 {font-family: "Bradley Hand ITC";
+		     font-size: larger;
+		     font-style: italic;
+		     text-align: center;
+		     background-color: white;
+			 border-style: inset;
+		     border-radius: 15px;
+		     color: #55c;
+			 text-shadow: 3px 3px 7px #aaf;
+			 width: 647px;
+			 padding-top: 15px;
+			 padding-bottom: 15px}
+			 
+		  p {padding-left: 230px;}
+		  
+		img {border-radius: 15px;
+		     border-style: inset }
+		
+	 footer {padding-left: 230px;
+	         font-size: small;
+	         font-style: italic;
+			 padding-top: 8px}

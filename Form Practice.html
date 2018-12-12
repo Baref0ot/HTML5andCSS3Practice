@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+	<html lang="en">
+		<head>
+			<title> Form Example </title>
+			<meta charset="utf-8"/>
+			<meta name="description" content="The practice of creating forms with HTML5"/>
+			<meta name="keywords" content="How To, Computer, Programming, forms, practice"/>
+			<meta name="author" content="Matthew Lee Wright"/>
+			<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+			<link href="#" rel="stylesheet"/>
+		</head>
+		<body>	
+			<header>
+				<h1> Join Our Newsletter </h1>
+			</header>
+			<nav>
+				<!-- Nothing will be displayed in the navigation -->
+			</nav>
+			<main>
+				<br/>
+				<form method="get">
+					E-Mail: <input type="text" name="email" id="email" required="required"/> <br/>
+					<br/>
+					Password: <input type="password" name="password" id="password" required="required"/> <br/>
+					<!-- Hidden Element -->
+					<input type="hidden" name="sendto" value="Matthews_Website_Customer_Database"/>
+					<br/>
+					<br/>
+					<input type="submit" value="Sign Me Up!"/> &nbsp; 
+					<input type="reset"/>
+					<br/>
+					<h2> Take a quick survey! </h2>
+					 What is your favorite search Engine? <br/>
+					<input type="checkbox" name="IE" id="IE" value="yes"/> Internet Explorer <br/>
+					<input type="checkbox" name="Chrome" id="Chrome" value="yes"/> Google Chrome <br/>
+					<input type="checkbox" name="Bing" id="Bing" value="yes"/> Bing! <br/>
+					<input type="checkbox" name="Yahoo" id="Yahoo" value="yes"/> Yahoo! <br/>
+					<br/>
+					Spam?<br/>
+					<input type="radio" name="spamQuest" id="spamQuest" value="Hate_it!"/> Hate It!<br/>
+					<input type="radio" name="spamQuest" id="spamQuest" value="Love_it!"/> Love It!<br/>
+					<br/>
+					<input type="submit" value="Submit Answers"/>
+				</form>
+			</main>
+			<footer>
+			</footer>
+		</body>
+	</html>
